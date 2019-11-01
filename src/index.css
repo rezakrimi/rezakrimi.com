@@ -28,16 +28,24 @@ code {
   font-weight: bold;
 }
 
+
 .profilePicFrame{
   background-image: linear-gradient(to right,#343a40, #343a40);
   height: 320px;
   width: 320px;
-  display:table-cell; vertical-align:middle; text-align:center;
+  position: relative;
+  margin:0 auto;
   border-radius: 50%;
 }
 
 .profilePic{
   height:300px;
-  width: 300;
+  width: 300px;
   border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }

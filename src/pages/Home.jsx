@@ -16,7 +16,7 @@ export class Home extends Component {
     }
 
     async updateTitle(){
-        var chars = ['M','y',' ', 'n', 'a','m','e',' ','i','s',' ','R','e','z','a',' ','a','n','d',' ','y','e','s',',',' ','m','y',' ','f','a','v','o','r','i','t','e',' ','c','o','l','o','r',' ','i','s',' ','p','i','n','k','#','#','#','#','#','#','#','#','#','-','-','-','-','y','e','l','l','o','w']
+        var chars = ['M','y',' ', 'n', 'a','m','e',' ','i','s',' ','R','e','z','a',' ','a','n','d',' ','y','e','s',',',' ','m','y',' ','f','a','v','o','r','i','t','e',' ','c','o','l','o','r',' ','i','s',' ','p','i','n','k','#','#','#','#','#','#','#','#','#','-','#','-','#','-','#','-','#','#','#','#','y','e','l','l','o','w','#','#','#','#','#','#','#','#','#','#','#','.']
         for(var i=0; i < chars.length; i++){
             var temp = this.state.title
             if (chars[i] == '-'){
@@ -43,7 +43,7 @@ export class Home extends Component {
                 style={{ padding: "20px 20px 100px 20px", backgroundColor: "#FFD300" }}
             >
                 <Row className="justify-content-md-center">
-                    <Col xs="auto">
+                    <Col xs={12} className="profileContainer">
                         <div className="profilePicFrame">
                             <img className="profilePic" src="https://rezakrimi.s3.us-east-2.amazonaws.com/photo_2019-09-15_18-30-30.jpg"/>
                         </div>

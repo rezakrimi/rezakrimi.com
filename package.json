@@ -1,4 +1,6 @@
 {
+  "main": "index.js",
+  "homepage":".",
   "name": "rezakrimi",
   "version": "0.1.0",
   "private": true,
