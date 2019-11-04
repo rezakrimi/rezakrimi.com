@@ -10,7 +10,7 @@ import Error404 from "./pages/Error404"
 
 function App() {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Nav />
             <Switch>
                 <Route exact path="/" component={Home} />
