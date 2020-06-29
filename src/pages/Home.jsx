@@ -146,7 +146,7 @@ export class Home extends Component {
                     >
                         <Emoji width="70px" height="70px" />
                     </Col>
-                    <Col xs={4}>
+                    <Col xs={12} md={4}>
                         <div className="profilePicFrame">
                             <img
                                 className="profilePic"
