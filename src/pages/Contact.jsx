@@ -16,7 +16,7 @@ export class Contact extends Component {
                         <Emoji width="70px" height="70px"/>
                     </Col>
                     <Col xs={4} className="emojiContainer d-none d-lg-block">
-                        <Emoji width="300px" height="300px"/>
+                        <Emoji width="320px" height="320px"/>
                     </Col>
                     <Col xs={4} className="emojiContainer d-none d-lg-block">
                         <Emoji width="150px" height="150px"/>
