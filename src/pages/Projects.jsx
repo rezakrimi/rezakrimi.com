@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
+import { CardBody, CardText } from "react-bootstrap/Card";
 
 export class Projects extends Component {
     render() {
@@ -13,7 +14,7 @@ export class Projects extends Component {
             >
                 <Row>
                     <Col xs={12}>
-                        <Card style={{ width: "100%" }}>
+                        <Card style={{ width: "100%", marginBottom: "30px" }}>
                             <Card.Body>
                                 <Card.Title>
                                     NSERC USRA Undergraduate Research
@@ -131,6 +132,28 @@ export class Projects extends Component {
                                         </a>
                                         .
                                     </iframe>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs={12}>
+                        <Card>
+                            <Card.Body>
+                                <Card.Title>LumberJack AI Bot</Card.Title>
+                                <Card.Text>
+                                    <Row>
+                                        <Col xs={12} md={7}>
+                                            <p>LumberJack is a web-based game. This bot captures a snapshot from the game and then creates a map representing the current state of the game. The bot then plans the moves for the current state and performs them. Once the actions are finished, the bot takes another screenshot to decide the next moves.</p>
+                                            <p>This script was written in python and to improve performance, it uses MSS instead of PIL. MSS is much faster than PIL in taking screenshots. The created captured screenshots are then converted to PIL format to be processed.</p>
+                                        </Col>
+                                        <Col xs={12} md={5}>
+                                            <div style={{textAlign:"center"}}>
+                                            <img src='/lumberjack.gif' alt="LumberJack Gif" style={{ height:"300px" }}/>
+                                            </div>
+                                        </Col>
+                                    </Row>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
